@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  alphagarden_vision:
+    image: alphagarden_vision
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9999:9999
